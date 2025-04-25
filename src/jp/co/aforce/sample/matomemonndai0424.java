@@ -20,7 +20,7 @@ public class matomemonndai0424 {
 				kosu++;
 			}
 		}
-		System.out.println("70点以上の得点は"+kosu+"個です");
+		System.out.println("70点以上の得点は" + kosu + "個です");
 
 		//		int element1 =testscore.get(0);
 		//		int element2 =testscore.get(1);
@@ -29,45 +29,39 @@ public class matomemonndai0424 {
 		//		int element5 =testscore.get(4);
 		//		int element6 =testscore.get(5);
 
-		
-		
-//		-----------------④課題-----------------------------------
-		
-		System.out.println("\n\n"+"④課題");
-		System.out.println("\n\n"+"問1");
-		int i=0;
-		while(i<10) {
+		//		-----------------④課題-----------------------------------
+
+		System.out.println("\n\n" + "④課題");
+		System.out.println("\n\n" + "問1");
+		int i = 0;
+		while (i < 10) {
 			i++;
 			System.out.println(i);
 		}
-		
-		System.out.println("\n\n"+"問2");
+
+		System.out.println("\n\n" + "問2");
 		/*int goukei=0;*/
-		int goukei=0;
-		int i2=0;
-		while(i2<100) {
+		int goukei = 0;
+		int i2 = 0;
+		while (i2 < 100) {
 			i2++;
-			goukei+=i2;
-			
-//			System.out.println(i2);
+			goukei += i2;
+
+			//			System.out.println(i2);
 		}
 		System.out.println(goukei);
-		
-		System.out.println("\n\n"+"問3");
-		
+
+		System.out.println("\n\n" + "問3");
+		int goukei2 = 0;
 		Scanner kazuScan = new Scanner(System.in);
 		System.out.println("ここに入力してください");
-		/*Integer input = kazuScan.nextLine(); // 入力を取得
-		*/		kazuScan.close();
-		
-//		while(input != 0) {
-//		
-//		}
-//		
-		
-		
-		
-		
-		
+		int input = kazuScan.nextInt(); // 入力を取得
+		kazuScan.close();
+
+		while (input != 0) {
+			System.out.println(goukei2+=input);
+			
+		}
+
 	}
 }
