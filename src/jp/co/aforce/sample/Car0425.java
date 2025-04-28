@@ -15,7 +15,7 @@ this.year=1905;
 
 	}
 	public void display() {
-		System.out.println("メーカーは "+maker+"です"+"メーカーは"+year+"です");
+		System.out.println("メーカーは "+maker+"です"+"年式は"+year+"です");
 	}
 	public static void main(String[] args) {
 		System.out.println();

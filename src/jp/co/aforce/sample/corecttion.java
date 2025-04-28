@@ -13,7 +13,7 @@ public class corecttion {
 		fruitsList.add(2, "grape");
 		fruitsList.add(3, "peace");
 		//　要素の取得取得
-		String element1 = fruitsList.get(2);
+		String element1 = fruitsList.get(3);
 		System.out.println("2番目の要素" + element1);
 		System.out.println(fruitsList);
 		//　要素の削除

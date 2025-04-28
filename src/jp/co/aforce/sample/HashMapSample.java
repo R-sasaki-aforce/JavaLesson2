@@ -24,6 +24,6 @@ public class HashMapSample {
 		 
 		 nameMap.remove("Alice");
 		 System.out.println(nameMap);
-		 
+		
 	}
 }

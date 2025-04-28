@@ -59,9 +59,9 @@ public class matomemonndai0424 {
 		kazuScan.close();
 
 		while (input != 0) {
-			System.out.println(goukei2+=input);
+			goukei2+=input;
 			
 		}
-
+		System.out.println(goukei2);
 	}
 }

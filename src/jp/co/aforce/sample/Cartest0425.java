@@ -4,8 +4,8 @@ public class Cartest0425 {
 	public static void main(String[] args) {
 
 		//makerとyearをそれぞれ設定して、Carクラスのオブジェクトを生成。
-		//Car car=new Car("Nbox",2022);
-Car0425 car=new Car0425();
+		Car0425 car=new Car0425("Nbox",2022);
+//Car0425 car=new Car0425();
 car.display();
 	}
 }
