@@ -1,0 +1,9 @@
+package jp.co.aforce.sample;
+
+public class Exercises7 {
+	public static void main(String[] args) {
+
+		
+		
+	}
+}
